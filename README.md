@@ -24,12 +24,12 @@ This application allows users to:
 ---
 
 ## 📂 Backend Structure
-server/ - App entry, DB & session setup
-configs/ - MongoDB & Gemini config
-controllers/ - Auth, Thumbnail, User logic
-routes/ - API routes
-middleware/ - Auth session check
-models/ - User & Thumbnail schemas
+- server/ - App entry, DB & session setup
+- configs/ - MongoDB & Gemini config
+- controllers/ - Auth, Thumbnail, User logic
+- routes/ - API routes
+- middleware/ - Auth session check
+- models/ - User & Thumbnail schemas
 
 ---
 
