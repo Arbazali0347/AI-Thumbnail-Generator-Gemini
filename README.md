@@ -1,55 +1,184 @@
-# 🖼️ AI Thumbnail Generator
+# 🤖 AI Thumbnail Generator - MERN + Gemini AI
 
-AI-powered thumbnail generator built with **MERN Stack** and **Gemini Pro API**.
+AI Thumbnail Generator is a modern **AI-powered web application** that allows users to generate high-quality thumbnails using **Google Gemini AI**.
 
----
+Users can enter a prompt, choose styles, colors, and aspect ratios, and the system automatically generates a professional thumbnail using artificial intelligence.
 
-## 🚀 Overview
-This application allows users to:
-- Register and login
-- Generate AI-based thumbnails
-- Store images securely
-- View and delete their thumbnails
+The project focuses on **AI integration, modern UI/UX, and scalable full-stack architecture**.
 
 ---
 
-## 🛠 Tech Stack
-- Frontend: React
-- Backend: Node.js, Express
-- Database: MongoDB
-- Authentication: Session-based Auth
-- AI: Gemini Pro API
-- Image Storage: Cloudinary
+# 🚀 Features
+
+## 🎨 AI Thumbnail Generation
+
+* Generate thumbnails using **Google Gemini AI**
+* Prompt-based thumbnail creation
+* AI-powered image generation
+* Fast and optimized generation system
 
 ---
 
-## 📂 Backend Structure
-- server/ - App entry, DB & session setup
-- configs/ - MongoDB & Gemini config
-- controllers/ - Auth, Thumbnail, User logic
-- routes/ - API routes
-- middleware/ - Auth session check
-- models/ - User & Thumbnail schemas
+## 🧑‍💻 User Features
+
+* User authentication system
+* Login / Register functionality
+* Personal thumbnail history
+* Generate thumbnails with custom prompts
+* Select **styles and color schemes**
+* Choose **aspect ratios**
+* Preview generated thumbnails
+* Modern responsive UI
 
 ---
 
-## 🔐 Features
-- User authentication
-- Protected routes
-- AI thumbnail generation
-- Cloudinary image upload
-- User-specific thumbnails
+## ⚙️ Backend Features
+
+* Secure authentication system
+* Thumbnail generation API
+* User data management
+* AI prompt handling
+* Database storage for generated thumbnails
+* Protected routes using middleware
 
 ---
 
-## 🔁 Flow
-User → Login →
-Generate Thumbnail →
-Gemini AI →
-Cloudinary →
-MongoDB →
-Frontend
+# 🧠 Tech Stack
 
-## 👨‍💻 Author
-Arbaz Ali  
-Self-taught MERN Stack Developer
+## Frontend
+
+* React.js
+* TypeScript
+* Tailwind CSS
+* Context API
+* Modern UI Components
+
+---
+
+## Backend
+
+* Node.js
+* Express.js
+* TypeScript
+* MongoDB
+* Mongoose
+
+---
+
+## AI Integration
+
+* Google **Gemini AI API**
+
+Used for:
+
+* Prompt processing
+* AI thumbnail generation
+
+---
+
+# 📁 Project Structure
+
+```
+AI-Thumbnail-Generator
+│
+├── client
+│   ├── src
+│   │   ├── components
+│   │   ├── assets
+│   │   ├── configs
+│   │   └── App.tsx
+│
+├── server
+│   ├── configs
+│   ├── controllers
+│   ├── models
+│   ├── middlewares
+│   ├── routers
+│   └── server.ts
+│
+└── README.md
+```
+
+---
+
+# ⚙️ Installation
+
+## 1️⃣ Clone Repository
+
+```
+git clone https://github.com/yourusername/AI-Thumbnail-Generator.git
+```
+
+```
+cd AI-Thumbnail-Generator
+```
+
+---
+
+# 🖥 Run Frontend
+
+```
+cd client
+npm install
+npm run dev
+```
+
+Frontend will run on:
+
+```
+http://localhost:5173
+```
+
+---
+
+# 🖥 Run Backend
+
+```
+cd server
+npm install
+npm run dev
+```
+
+Backend will run on:
+
+```
+http://localhost:5000
+```
+
+---
+
+# 🔑 Environment Variables
+
+Create `.env` file in the **server folder**
+
+```
+MONGO_URI=your_mongodb_connection
+GEMINI_API_KEY=your_gemini_api_key
+JWT_SECRET=your_jwt_secret
+PORT=5000
+```
+
+---
+
+# 🎯 Future Improvements
+
+* Download generated thumbnails
+* Thumbnail editing tools
+* AI prompt suggestions
+* Credit based generation system
+* Image gallery for users
+* Advanced AI style presets
+
+---
+
+# 👨‍💻 Author
+
+**Arbaz Ali (Black Aro)**
+Full Stack MERN Developer
+
+💼 Open for Freelance Work
+📩 Available for Collaboration
+
+---
+
+⭐ If you like this project please **star the repository**.
