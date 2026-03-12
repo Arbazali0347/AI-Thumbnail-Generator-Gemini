@@ -106,7 +106,7 @@ AI-Thumbnail-Generator
 ## 1️⃣ Clone Repository
 
 ```
-git clone https://github.com/yourusername/AI-Thumbnail-Generator.git
+git clone https://github.com/Arbazali0347/AI-Thumbnail-Generator-Gemini
 ```
 
 ```
